@@ -1,0 +1,987 @@
+{
+  "source": "Telecom Regulatory Authority of India",
+  "sourceUrl": "https://www.trai.gov.in/node/7411",
+  "published": "2020-06-16",
+  "sourceSha256": "a9fb9e8088a78a14cc3cf17fb62bad3568b0805d17a45ac8a452edc34eae261d",
+  "banks": [
+    {
+      "id": "airtel-payments-bank",
+      "name": "Airtel Payments Bank",
+      "principalEntities": [
+        "Airtel Payments Bank Limited"
+      ],
+      "headers": [
+        "171717",
+        "177177",
+        "650017",
+        "650137",
+        "AIRBNK",
+        "AIRBSE",
+        "AIRBSI"
+      ]
+    },
+    {
+      "id": "au-small-finance-bank",
+      "name": "AU Small Finance Bank",
+      "principalEntities": [
+        "AU SMALL FINANCE BANK LIMITED"
+      ],
+      "headers": [
+        "120012",
+        "121200",
+        "180012",
+        "181200",
+        "181212",
+        "AUBANK",
+        "AUBMSG",
+        "AUBSMS",
+        "AUDOST",
+        "AUITSM"
+      ]
+    },
+    {
+      "id": "axis-bank",
+      "name": "Axis Bank",
+      "principalEntities": [
+        "AXIS BANK LIMITED"
+      ],
+      "headers": [
+        "AXISB",
+        "AXISBK",
+        "AXISHR",
+        "AXISIN",
+        "AXISMR",
+        "AXISPR",
+        "AXISSR",
+        "AXSFI",
+        "AXSFIN",
+        "FCHRGE",
+        "LICCRD",
+        "SMGPAY"
+      ]
+    },
+    {
+      "id": "bandhan-bank",
+      "name": "Bandhan Bank",
+      "principalEntities": [
+        "BANDHAN BANK LIMITED"
+      ],
+      "headers": [
+        "154321",
+        "BDNSMS",
+        "BNDNBK",
+        "BNDNHL"
+      ]
+    },
+    {
+      "id": "bank-of-baroda",
+      "name": "Bank of Baroda",
+      "principalEntities": [
+        "BANK OF BARODA"
+      ],
+      "headers": [
+        "BOBBIZ",
+        "BOBBNK",
+        "BOBCMS",
+        "BOBCRM",
+        "BOBFRM",
+        "BOBMSG",
+        "BOBOTP",
+        "BOBRAJ",
+        "BOBSCE",
+        "BOBSCF",
+        "BOBSMS",
+        "BOBTRE",
+        "BOBTXN",
+        "BOBUPG",
+        "BOBUPI"
+      ]
+    },
+    {
+      "id": "bank-of-india",
+      "name": "Bank of India",
+      "principalEntities": [
+        "BANK OF INDIA"
+      ],
+      "headers": [
+        "126995",
+        "BOIBAL",
+        "BOIIND",
+        "BOIINT",
+        "BOIJGB",
+        "BOILON",
+        "BOINJG",
+        "BOIREM",
+        "BOISAF",
+        "BOISME",
+        "BOIVKG"
+      ]
+    },
+    {
+      "id": "bank-of-maharashtra",
+      "name": "Bank of Maharashtra",
+      "principalEntities": [
+        "BANK OF MAHARASHTRA"
+      ],
+      "headers": [
+        "MAHABK"
+      ]
+    },
+    {
+      "id": "canara-bank",
+      "name": "Canara Bank",
+      "principalEntities": [
+        "Canara Bank"
+      ],
+      "headers": [
+        "110111",
+        "CAANBK",
+        "CANBNK",
+        "CANRRB",
+        "CANRWD"
+      ]
+    },
+    {
+      "id": "capital-small-finance-bank",
+      "name": "Capital Small Finance Bank",
+      "principalEntities": [
+        "Capital Small Finance Bank Limited"
+      ],
+      "headers": [
+        "CSFBNK"
+      ]
+    },
+    {
+      "id": "central-bank-of-india",
+      "name": "Central Bank of India",
+      "principalEntities": [
+        "Central Bank of India"
+      ],
+      "headers": [
+        "CBIOTP",
+        "CENTBK"
+      ]
+    },
+    {
+      "id": "city-union-bank",
+      "name": "City Union Bank",
+      "principalEntities": [
+        "City Union Bank"
+      ],
+      "headers": [
+        "111904",
+        "CUBANK",
+        "CUBFST",
+        "CUBLTD",
+        "CUBOTP",
+        "CUBSMS",
+        "CUBUPI"
+      ]
+    },
+    {
+      "id": "csb-bank",
+      "name": "CSB Bank",
+      "principalEntities": [
+        "CSB Bank Limited"
+      ],
+      "headers": [
+        "CSBBNK"
+      ]
+    },
+    {
+      "id": "dbs-bank-india",
+      "name": "DBS Bank India",
+      "principalEntities": [
+        "DBS BANK INDIA LIMITED"
+      ],
+      "headers": [
+        "DBSBNK"
+      ]
+    },
+    {
+      "id": "dcb-bank",
+      "name": "DCB Bank",
+      "principalEntities": [
+        "DCB Bank Limited"
+      ],
+      "headers": [
+        "130000",
+        "130012",
+        "143242",
+        "150000",
+        "188888",
+        "190000",
+        "199199",
+        "DCBANK",
+        "DCBBNK",
+        "DCBDCB"
+      ]
+    },
+    {
+      "id": "deutsche-bank-india",
+      "name": "Deutsche Bank India",
+      "principalEntities": [
+        "DEUTSCHE BANK AG"
+      ],
+      "headers": [
+        "DBALRT",
+        "DEUTBK"
+      ]
+    },
+    {
+      "id": "equitas-small-finance-bank",
+      "name": "Equitas Small Finance Bank",
+      "principalEntities": [
+        "EQUITAS SMALL FINANCE BANK LIMITED"
+      ],
+      "headers": [
+        "115551",
+        "155551",
+        "EQBANK",
+        "EQUTAS",
+        "EQUTAT",
+        "EQUTAX"
+      ]
+    },
+    {
+      "id": "esaf-small-finance-bank",
+      "name": "ESAF Small Finance Bank",
+      "principalEntities": [
+        "ESAF SMALL FINANCE BANK LIMITED"
+      ],
+      "headers": [
+        "EASFBT",
+        "ESAFIT",
+        "ESAFOT",
+        "ESAFPB",
+        "ESAFPR",
+        "ESAFSF",
+        "ESAFTR",
+        "ESFUAT"
+      ]
+    },
+    {
+      "id": "federal-bank",
+      "name": "Federal Bank",
+      "principalEntities": [
+        "FEDERAL BANK"
+      ],
+      "headers": [
+        "181818",
+        "FEDADV",
+        "FEDBNK",
+        "FEDOTP"
+      ]
+    },
+    {
+      "id": "fino-payments-bank",
+      "name": "Fino Payments Bank",
+      "principalEntities": [
+        "FINO PAYMENTS BANK LIMITED"
+      ],
+      "headers": [
+        "FINOBK",
+        "FINOHR",
+        "FINOIN",
+        "FINOPB"
+      ]
+    },
+    {
+      "id": "hdfc-bank",
+      "name": "HDFC Bank",
+      "principalEntities": [
+        "HDFC BANK LIMITED"
+      ],
+      "headers": [
+        "146587",
+        "DPCSDX",
+        "EBTALT",
+        "HDFCAL",
+        "HDFCBA",
+        "HDFCBK",
+        "HDFCBN",
+        "HDFCCC",
+        "HDFCDC",
+        "HDFCFD",
+        "HDFCGC",
+        "HDFCHI",
+        "HDFCHL",
+        "HDFCIT",
+        "HDFCLI",
+        "HDFCPL",
+        "HDFCRD",
+        "HDFCSD",
+        "HDFCSE",
+        "HDFCUN",
+        "HDFSET",
+        "HDFTST",
+        "HRHDFC",
+        "MIMTMX",
+        "PAYZAP",
+        "UNIXCE"
+      ]
+    },
+    {
+      "id": "hsbc-india",
+      "name": "HSBC India",
+      "principalEntities": [
+        "The Hongkong & Shanghai Banking Corporation Limited"
+      ],
+      "headers": [
+        "100022",
+        "HSBCBK",
+        "HSBCEX",
+        "HSBCIM",
+        "HSBCIN"
+      ]
+    },
+    {
+      "id": "icici-bank",
+      "name": "ICICI Bank",
+      "principalEntities": [
+        "ICICI BANK LIMITED"
+      ],
+      "headers": [
+        "142421",
+        "142424",
+        "ICBANK",
+        "ICIBNK",
+        "ICICBK",
+        "ICICIB",
+        "ICICIH",
+        "ICICIK",
+        "ICICIL",
+        "ICICTC",
+        "ICIEMP",
+        "ICIOTP",
+        "ISECLD",
+        "ISRVCE"
+      ],
+      "observedHeaders": [
+        "ICICIT"
+      ]
+    },
+    {
+      "id": "idfc-first-bank",
+      "name": "IDFC FIRST Bank",
+      "principalEntities": [
+        "IDFC FIRST BANK LIMITED"
+      ],
+      "headers": [
+        "111101",
+        "111102",
+        "111103",
+        "111104",
+        "111105",
+        "111106",
+        "111107",
+        "111108",
+        "111109",
+        "IDFCBK",
+        "IDFCCM",
+        "IDFCFB",
+        "IDFCFZ",
+        "IDFCIT",
+        "IDFCTS",
+        "IDFCZ",
+        "IDFSIT"
+      ]
+    },
+    {
+      "id": "india-post-payments-bank",
+      "name": "India Post Payments Bank",
+      "principalEntities": [
+        "India Post Payments Bank Ltd"
+      ],
+      "headers": [
+        "IPBCOM",
+        "IPBKYC",
+        "IPBMSG",
+        "IPBOFR",
+        "IPBOTP",
+        "IPBSEC",
+        "MYIPPB"
+      ]
+    },
+    {
+      "id": "indian-bank",
+      "name": "Indian Bank",
+      "principalEntities": [
+        "Indian Bank"
+      ],
+      "headers": [
+        "INBUPI",
+        "INDBNK"
+      ]
+    },
+    {
+      "id": "indusind-bank",
+      "name": "IndusInd Bank",
+      "principalEntities": [
+        "INDUSIND BANK LIMITED"
+      ],
+      "headers": [
+        "126666",
+        "127777",
+        "INDUSA",
+        "INDUSB",
+        "INDUSO"
+      ]
+    },
+    {
+      "id": "jammu-kashmir-bank",
+      "name": "Jammu & Kashmir Bank",
+      "principalEntities": [
+        "THE JAMMU AND KASHMIR BANK LIMITED"
+      ],
+      "headers": [
+        "133333",
+        "JKBANK",
+        "JKCARD"
+      ]
+    },
+    {
+      "id": "jana-small-finance-bank",
+      "name": "Jana Small Finance Bank",
+      "principalEntities": [
+        "JANA SMALL FINANCE BANK LTD"
+      ],
+      "headers": [
+        "JANABK",
+        "JANATR",
+        "JANATX"
+      ]
+    },
+    {
+      "id": "karnataka-bank",
+      "name": "Karnataka Bank",
+      "principalEntities": [
+        "The KARNATAKA BANK LIMITED"
+      ],
+      "headers": [
+        "128119",
+        "150773",
+        "180224",
+        "KARBNK",
+        "KBLBNK",
+        "KRNBNK",
+        "KRTBNK",
+        "KTKBNK"
+      ]
+    },
+    {
+      "id": "karur-vysya-bank",
+      "name": "Karur Vysya Bank",
+      "principalEntities": [
+        "The Karur Vysya Bank Limited"
+      ],
+      "headers": [
+        "191600",
+        "191607",
+        "KVBANK",
+        "KVBOTP",
+        "KVBUPI"
+      ]
+    },
+    {
+      "id": "kotak-mahindra-bank",
+      "name": "Kotak Mahindra Bank",
+      "principalEntities": [
+        "Kotak Mahindra Bank Ltd"
+      ],
+      "headers": [
+        "100811",
+        "111000",
+        "111888",
+        "189766",
+        "KBANKT",
+        "KOTAKB",
+        "KOTAKP",
+        "KTKREM"
+      ]
+    },
+    {
+      "id": "nsdl-payments-bank",
+      "name": "NSDL Payments Bank",
+      "principalEntities": [
+        "NSDL Payments Bank Limited"
+      ],
+      "headers": [
+        "111555",
+        "NSDLCD",
+        "NSDLPB",
+        "NSDLRM"
+      ]
+    },
+    {
+      "id": "paytm-payments-bank",
+      "name": "Paytm Payments Bank",
+      "principalEntities": [
+        "PAYTM PAYMENTS BANK LIMITED"
+      ],
+      "headers": [
+        "PAYTMB"
+      ]
+    },
+    {
+      "id": "punjab-sind-bank",
+      "name": "Punjab & Sind Bank",
+      "principalEntities": [
+        "Punjab And Sind Bank"
+      ],
+      "headers": [
+        "PSBANK"
+      ]
+    },
+    {
+      "id": "punjab-national-bank",
+      "name": "Punjab National Bank",
+      "principalEntities": [
+        "PUNJAB NATIONAL BANK"
+      ],
+      "headers": [
+        "PNBCCD",
+        "PNBCRD",
+        "PNBCRM",
+        "PNBDBD",
+        "PNBHRD",
+        "PNBJNK",
+        "PNBLKO",
+        "PNBMKT",
+        "PNBOTP",
+        "PNBRTS",
+        "PNBSMS",
+        "PNBTBD"
+      ]
+    },
+    {
+      "id": "rbl-bank",
+      "name": "RBL Bank",
+      "principalEntities": [
+        "RBL BANK LIMITED"
+      ],
+      "headers": [
+        "120011",
+        "121111",
+        "121314",
+        "130001",
+        "130011",
+        "131415",
+        "140001",
+        "140011",
+        "150001",
+        "160001",
+        "FASTDV",
+        "RATNAK",
+        "RBLBBB",
+        "RBLBNK",
+        "RBLCCC",
+        "RBLCRD",
+        "RBLHRD",
+        "RBLINF",
+        "RBLKYC",
+        "RBLOFR",
+        "RBLOSR",
+        "RBLPIL",
+        "RBLPLN",
+        "RBLSSU",
+        "RBLTEC",
+        "RBLVPN",
+        "RBLWCM",
+        "SPRCRD",
+        "SPROFR"
+      ]
+    },
+    {
+      "id": "south-indian-bank",
+      "name": "South Indian Bank",
+      "principalEntities": [
+        "THE SOUTH INDIAN BANK LIMITED"
+      ],
+      "headers": [
+        "SIBCNP",
+        "SIBPRD",
+        "SIBSMS"
+      ]
+    },
+    {
+      "id": "standard-chartered-bank",
+      "name": "Standard Chartered Bank",
+      "principalEntities": [
+        "STANDARD CHARTERED BANK"
+      ],
+      "headers": [
+        "FROMSC",
+        "SCBANK"
+      ]
+    },
+    {
+      "id": "state-bank-of-india",
+      "name": "State Bank of India",
+      "principalEntities": [
+        "STATE BANK OF INDIA"
+      ],
+      "headers": [
+        "141516",
+        "ACEPLC",
+        "AGMITS",
+        "ATMMON",
+        "ATMMVS",
+        "ATMSBI",
+        "ATMSMS",
+        "ATMTAD",
+        "CBSSBI",
+        "CCCDEL",
+        "CCHRIR",
+        "CCONLN",
+        "CCPCAH",
+        "CCPCCN",
+        "CCRSBI",
+        "CFOBAN",
+        "CMPHYD",
+        "CSDSBI",
+        "CTDSBI",
+        "CTMUGM",
+        "CVELUC",
+        "DBPSBI",
+        "DGTBNK",
+        "DUNICA",
+        "EDSADM",
+        "FIDSBI",
+        "FMCLUC",
+        "FSLOCT",
+        "GCCSBI",
+        "GRCSBG",
+        "GRCSBI",
+        "GSCLOC",
+        "HRMSCC",
+        "IAPPRV",
+        "ICMTRG",
+        "IMAHYD",
+        "ISDSBI",
+        "ITCOMP",
+        "ITRISK",
+        "ITRSNC",
+        "ITSDEL",
+        "ITSLHO",
+        "KHLADM",
+        "LCTSCS",
+        "LHOABU",
+        "LHOBAN",
+        "LHOGMI",
+        "LHOKOL",
+        "LHOPAT",
+        "MABHYD",
+        "MISDEP",
+        "PIMSBI",
+        "PPGDEP",
+        "PVIJAY",
+        "RBOPEN",
+        "RMMBNR",
+        "RMRBLY",
+        "SAMLMS",
+        "SBBJNB",
+        "SBCDRE",
+        "SBCWMS",
+        "SBDBTL",
+        "SBDCOG",
+        "SBECOM",
+        "SBEPAY",
+        "SBEREG",
+        "SBERMS",
+        "SBFIAH",
+        "SBFIMF",
+        "SBGALR",
+        "SBGITC",
+        "SBGLMS",
+        "SBGMBS",
+        "SBGPPC",
+        "SBHIGH",
+        "SBHINB",
+        "SBHRMS",
+        "SBIABD",
+        "SBIABU",
+        "SBIACS",
+        "SBIADS",
+        "SBIAHM",
+        "SBIAND",
+        "SBIAOR",
+        "SBIAPP",
+        "SBIATM",
+        "SBIATT",
+        "SBIAVS",
+        "SBIBAN",
+        "SBIBHO",
+        "SBIBHU",
+        "SBIBNK",
+        "SBIBOG",
+        "SBIBSC",
+        "SBIBTU",
+        "SBICAA",
+        "SBICAR",
+        "SBICBG",
+        "SBICDC",
+        "SBICDS",
+        "SBICHA",
+        "SBICHD",
+        "SBICHE",
+        "SBICMD",
+        "SBICMP",
+        "SBICMS",
+        "SBICON",
+        "SBICOS",
+        "SBICPA",
+        "SBICPC",
+        "SBICPP",
+        "SBICRS",
+        "SBICVC",
+        "SBICVE",
+        "SBICVS",
+        "SBICWS",
+        "SBIDAK",
+        "SBIDBT",
+        "SBIDCL",
+        "SBIDEL",
+        "SBIDGT",
+        "SBIDIA",
+        "SBIDMO",
+        "SBIDMT",
+        "SBIDRC",
+        "SBIDRT",
+        "SBIDSB",
+        "SBIDTB",
+        "SBIDYN",
+        "SBIEES",
+        "SBIEIS",
+        "SBIEMM",
+        "SBIEST",
+        "SBIETC",
+        "SBIETF",
+        "SBIETM",
+        "SBIEWS",
+        "SBIFIJ",
+        "SBIFMC",
+        "SBIFMS",
+        "SBIFOB",
+        "SBIFRW",
+        "SBIFXT",
+        "SBIGAD",
+        "SBIGCC",
+        "SBIGKP",
+        "SBIGLM",
+        "SBIGLS",
+        "SBIGMU",
+        "SBIGOC",
+        "SBIGRC",
+        "SBIGUW",
+        "SBIHOM",
+        "SBIHRD",
+        "SBIHSG",
+        "SBIHUB",
+        "SBIHYD",
+        "SBIINB",
+        "SBIINF",
+        "SBIITS",
+        "SBIIVM",
+        "SBIJAI",
+        "SBIKBN",
+        "SBIKBP",
+        "SBIKER",
+        "SBIKOL",
+        "SBIKYC",
+        "SBILCM",
+        "SBILCO",
+        "SBILKL",
+        "SBILON",
+        "SBILOS",
+        "SBILOT",
+        "SBILTP",
+        "SBILUC",
+        "SBILWF",
+        "SBIMAB",
+        "SBIMAH",
+        "SBIMAP",
+        "SBIMAT",
+        "SBIMBD",
+        "SBIMBS",
+        "SBIMET",
+        "SBIMFK",
+        "SBIMUM",
+        "SBINPA",
+        "SBINPS",
+        "SBINTH",
+        "SBINWC",
+        "SBINWD",
+        "SBINZB",
+        "SBIOEM",
+        "SBIONB",
+        "SBIOTP",
+        "SBIOTS",
+        "SBIPAY",
+        "SBIPBS",
+        "SBIPBU",
+        "SBIPEN",
+        "SBIPER",
+        "SBIPNJ",
+        "SBIPOS",
+        "SBIPPC",
+        "SBIPRM",
+        "SBIPSG",
+        "SBIPSP",
+        "SBIQCK",
+        "SBIRBH",
+        "SBIRBU",
+        "SBIRCH",
+        "SBIRDH",
+        "SBIREG",
+        "SBIREH",
+        "SBIRMD",
+        "SBIRPR",
+        "SBIRTI",
+        "SBIRWZ",
+        "SBISAM",
+        "SBISBD",
+        "SBISEC",
+        "SBISFG",
+        "SBISMA",
+        "SBISMB",
+        "SBISMC",
+        "SBISME",
+        "SBISMP",
+        "SBISNB",
+        "SBISNC",
+        "SBISNP",
+        "SBISOC",
+        "SBISOM",
+        "SBISRP",
+        "SBITBU",
+        "SBITDS",
+        "SBITFF",
+        "SBITFO",
+        "SBITRB",
+        "SBITRI",
+        "SBITRN",
+        "SBITRS",
+        "SBITSM",
+        "SBITSS",
+        "SBITST",
+        "SBIUDR",
+        "SBIUPI",
+        "SBIVMT",
+        "SBIVPN",
+        "SBIWAL",
+        "SBIWEB",
+        "SBJSMS",
+        "SBLCPC",
+        "SBLLMS",
+        "SBLSPC",
+        "SBMCSH",
+        "SBMINB",
+        "SBOCAS",
+        "SBPBBU",
+        "SBPINB",
+        "SBRACC",
+        "SBRLMS",
+        "SBRWDZ",
+        "SBSSBI",
+        "SBTINB",
+        "SBWLTH",
+        "SBYONO",
+        "SOCINC",
+        "SSCORE",
+        "SSKSBH",
+        "SSKSBI",
+        "SSKSBM",
+        "SSKSBP",
+        "SSKSBT",
+        "WMBSMS"
+      ]
+    },
+    {
+      "id": "suryoday-small-finance-bank",
+      "name": "Suryoday Small Finance Bank",
+      "principalEntities": [
+        "Suryoday Small Finance Bank Limited"
+      ],
+      "headers": [
+        "120017",
+        "SMFLTD",
+        "SRYLTD",
+        "SSBFNK",
+        "SSFBNK"
+      ]
+    },
+    {
+      "id": "tamilnad-mercantile-bank",
+      "name": "Tamilnad Mercantile Bank",
+      "principalEntities": [
+        "TAMILNAD MERCANTILE BANK LIMITED"
+      ],
+      "headers": [
+        "111921",
+        "TMBANK",
+        "TMBFST",
+        "TMBOTP",
+        "TMBSMS",
+        "TMBUPI"
+      ]
+    },
+    {
+      "id": "uco-bank",
+      "name": "UCO Bank",
+      "principalEntities": [
+        "UCO BANK"
+      ],
+      "headers": [
+        "UCOBNK"
+      ]
+    },
+    {
+      "id": "ujjivan-small-finance-bank",
+      "name": "Ujjivan Small Finance Bank",
+      "principalEntities": [
+        "UJJIVAN SMALL FINANCE BANK LIMITED"
+      ],
+      "headers": [
+        "UJJIVN",
+        "UJVNBP"
+      ]
+    },
+    {
+      "id": "union-bank-of-india",
+      "name": "Union Bank of India",
+      "principalEntities": [
+        "UNION BANK OF INDIA"
+      ],
+      "headers": [
+        "100026",
+        "UNIONB"
+      ]
+    },
+    {
+      "id": "utkarsh-small-finance-bank",
+      "name": "Utkarsh Small Finance Bank",
+      "principalEntities": [
+        "Utkarsh Small Finance Bank Ltd"
+      ],
+      "headers": [
+        "UTKBNK",
+        "UTKMIS",
+        "UTKSFB"
+      ]
+    },
+    {
+      "id": "yes-bank",
+      "name": "Yes Bank",
+      "principalEntities": [
+        "Yes Bank Ltd"
+      ],
+      "headers": [
+        "YESBCC",
+        "YESBCM",
+        "YESBNK",
+        "YESPAY"
+      ]
+    }
+  ]
+}

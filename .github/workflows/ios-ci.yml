@@ -1,0 +1,41 @@
+name: iOS CI
+on:
+  push:
+    paths: ['ios/**', 'app/src/main/assets/bank_sender_registry.json', '.github/workflows/ios-ci.yml']
+  pull_request:
+    paths: ['ios/**', 'app/src/main/assets/bank_sender_registry.json', '.github/workflows/ios-ci.yml']
+permissions:
+  contents: read
+jobs:
+  native-ios:
+    runs-on: macos-26
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Xcode and Swift
+        run: |
+          xcodebuild -version
+          swift --version
+      - name: Core regression tests
+        run: swift test --package-path ios
+      - name: Verify generated project
+        run: |
+          cmp app/src/main/assets/bank_sender_registry.json ios/Sources/LedgerCore/Resources/bank_sender_registry.json
+          python3 ios/scripts/generate_project.py
+          git diff --exit-code -- ios/LocalLedger.xcodeproj
+      - name: Build app and widget for iOS Simulator
+        run: >-
+          xcodebuild -project ios/LocalLedger.xcodeproj -scheme LocalLedger
+          -configuration Debug -destination 'generic/platform=iOS Simulator'
+          -derivedDataPath ios/DerivedData CODE_SIGNING_ALLOWED=NO build
+      - name: UI smoke test
+        run: |
+          device_id=$(xcrun simctl list devices available -j | python3 -c 'import json,sys; d=json.load(sys.stdin); print(next(v["udid"] for k,vs in d["devices"].items() if "iOS-26" in k for v in vs if "iPhone" in v["name"]))')
+          xcodebuild -project ios/LocalLedger.xcodeproj -scheme LocalLedger -configuration Debug -destination "platform=iOS Simulator,id=$device_id" -derivedDataPath ios/DerivedData -resultBundlePath ios/UITests.xcresult CODE_SIGNING_ALLOWED=NO test
+      - name: Preserve UI test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-test-results
+          path: ios/UITests.xcresult
+          if-no-files-found: ignore

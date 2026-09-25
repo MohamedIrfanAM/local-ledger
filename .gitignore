@@ -54,3 +54,11 @@ outputs/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Native iOS / Swift
+ios/.build/
+ios/.swiftpm/
+ios/DerivedData/
+**/xcuserdata/
+*.xcuserstate
+*.xcresult

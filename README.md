@@ -11,6 +11,11 @@ An offline-first Android personal-finance tracker that turns verified Indian ban
 SMS alerts into a useful local ledger—without an account, a cloud backend,
 analytics, or internet permission.
 
+A native **SwiftUI iOS 26 port** is available in [`ios/`](ios/README.md), with
+Liquid Glass controls, the local ledger features, Shortcuts, and widgets. It is a
+development preview: iOS uses explicit alert/CSV imports instead of Android's
+SMS inbox access. Open `ios/LocalLedger.xcodeproj` in Xcode 26 or later.
+
 > [!IMPORTANT]
 > Local Ledger is an early alpha and a convenience tool, not a bank statement or
 > an accounting system. SMS delivery and parsing are inherently fallible. Always
